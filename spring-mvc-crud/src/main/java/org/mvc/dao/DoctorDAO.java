@@ -11,6 +11,7 @@ public class DoctorDAO {
 
   public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
     this.jdbcTemplate = jdbcTemplate;
+	  //comment
   }
 
   public int insert(Doctor doctor) {
